@@ -16,7 +16,14 @@ a {
 }
 
 body {
-  background-color: white;
-  color: black;
-  font-family: Verdana;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: rgb(94, 94, 94);
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
 }
