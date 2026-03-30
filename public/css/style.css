@@ -2,6 +2,19 @@
    HTML content. To learn how to do something, just try searching Google for questions like
    "how to change link color." */
 
+:root {
+  /*
+    * The :root selector allows you to define CSS variables that can be reused throughout your stylesheet.
+    * In this case, we're defining a variable called --primary-color with the value #333 (a dark gray).
+
+   */
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
 body {
   background-color: white;
   color: black;
