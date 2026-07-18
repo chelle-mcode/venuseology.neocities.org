@@ -1,120 +1,158 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Project</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+    <title>FEMMEOLOGIST WEBSITE</title>
 
-        body {
-            font-family: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
-            line-height: 1.6;
-            color: #333;
-        }
+    <link href="style.css" rel="stylesheet" type="text/css" media="all">
+    <link href="css/nav.css" rel="stylesheet" type="text/css" media="all">
 
-        header {
-            background: #333;
-            color: #fff;
-            padding: 1rem 0;
-            text-align: center;
-        }
-
-        nav {
-            background: #444;
-            padding: 0.5rem;
-        }
-
-        nav a {
-            color: #fff;
-            text-decoration: none;
-            margin: 0 1rem;
-            display: inline-block;
-        }
-
-        nav a:hover {
-            text-decoration: underline;
-        }
-
-        .container {
-            max-width: 1000px;
-            margin: 0 auto;
-            padding: 2rem;
-        }
-
-        section {
-            margin: 2rem 0;
-        }
-
-        footer {
-            background: #333;
-            color: #fff;
-            text-align: center;
-            padding: 1rem;
-            margin-top: 2rem;
-        }
-    </style>
 </head>
 
-<body>
-    <title>All About Elle!</title>
-    <style>
-        body {
-            background-color: cornsilk;
-            margin: auto;
-            font-family: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
-            font-weight: 400;
-            font-size: 10px;
-        }
-    </style>
-    <script language="JavaScript">
-        var today = new Date();
-        var date = today.getFullYear() + '-' + (today.getMonth() + 1) + '-' + today.getDate();
-        var msg = "Hello Traveler. Thank you for venturing out into this little corner of me (Elle!) on " + date + ". I hope you enjoy your stay!";
-        document.write(msg);
 
-    </script>
+<style>
+    nav {
+        background: url('public/images/nav.jpg') center/cover;
+        background=repeat-y;
+        padding: 0rem;
+
+    }
+
+    nav a {
+        color: #fff;
+        -webkit-text-stroke: 1px #333;
+        font-weight: bold;
+        font-size: 25px;
+        text-decoration: none;
+        margin: 0 1rem;
+        display: inline-block;
+    }
+
+    nav a:hover {
+        text-decoration: underline;
+    }
+
+    body {
+        background-image: url('public/images/polkadotbg.jpg');
+        background-repeat: repeat-x;
+        background-size: cover;
+        background-position: center;
+        background-color: rgb(94, 94, 94);
+    }
+
+    body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        color: #000000;
+        font-size: 20px;
+        font-weight: bold;
+        -webkit-text-stroke: .4px #333;
+    }
+
+    .container {
+        max-width: 1080px;
+        margin: 0 auto;
+        padding: 2rem;
+    }
+
+    section {
+        margin: 2rem 0;
+    }
+
+    footer {
+        background: #333;
+        color: #fff;
+        text-align: center;
+        padding: 1rem;
+        margin-top: 2rem;
+    }
+
+
+
+    #elletext {
+        /*font-style: italic;*/
+        font-family: georgia, sans-serif;
+        font-size: 36px;
+        margin: 0;
+        -webkit-text-fill-color: white;
+        -webkit-text-fill-width: 3px;
+        -webkit-text-stroke-width: 3px black;
+        -webkit-text-stroke: 1px black;
+    }
+</style>
+
+<body>
     <header>
-        <h1>My Project</h1>
+        <h1>WELCOME!</h1>
     </header>
 
+
     <nav>
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
+        <a href="Home/index.html">Home</a>
+        <a href="About-Me/index.html">About</a>
+        <a href="Projects/index.html">Projects</a>
+        <a href="Contact/index.html">Contact</a>
+        <a href="Libraries/index.html">Libraries</a>
     </nav>
 
-    <div class="container">
-        <section id="home">
-            <h2>Welcome</h2>
-            <p>This is your project website homepage.</p>
-        </section>
+    <p id="elletext">
+        Welcome to my personal website!
+    </p>
 
-        <section id="about">
-            <h2>About</h2>
-            <p>Tell your audience about your project here.</p>
-        </section>
+    <p>
+        This is a place where I will share my projects, thoughts, and anything else I find interesting. Feel free to
+        explore
+        and learn more about me and my work.
+    </p>
 
-        <section id="projects">
-            <h2>Projects</h2>
-            <p>Showcase your work here.</p>
-        </section>
+    <p>
+        To be clear this site is a work in progress... im still learning !!!: <a
+            href="https://neocities.org">Neocities</a>.
+    </p>
+    <img width=500 height=730 src="public/images/twi_21.jpg">
 
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>Get in touch with your audience.</p>
-        </section>
-    </div>
+
+
+    <p>
+        Here's how you can make <strong>bold</strong> and <em>italic</em> text.
+    </p>
+
+    <p>
+        Here's how you can add an image:
+    </p>
+    <img src="/neocities.png" alt="Site hosted by Neocities">
+
+    <img src="https://i.imgur.com/7f0ajhb.png" alt="twilight sparkle approves !">
+
+    <p>Here's how to make a list:</p>
+    <ul>
+        <li>First thing</li>
+        <li>Second thing</li>
+        <li>Third thing</li>
+    </ul>
+
+    <p>To learn more HTML/CSS, check out these <a href="https://neocities.org/tutorials">tutorials</a>!</p>
+
+
 
     <footer>
         <p>&copy; 2024 My Project. All rights reserved.</p>
     </footer>
+
+
+
+
+
+
+
+
+
+
 </body>
+
 
 </html>
