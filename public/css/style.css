@@ -2,6 +2,7 @@
 nav {
         background: url('../images/nav.jpg') center/cover;
         background-repeat: repeat-y;
+        background-size: 1000;
 
     }
 
@@ -10,40 +11,48 @@ nav {
         -webkit-text-stroke: 1px #333;
         font-weight: bold;
         font-size: 25px;
-        text-decoration: none;
-        margin: 0.0rem;
+        text-decoration: underline pink ;
+        margin: 0.5rem;
         display: inline-block;
+        position-area: inherit;
     }
 
     nav a:hover {
-        text-decoration: underline;
+        text-decoration: rgb(110, 226, 43) underline;
+    }
+    #header{
+        
+        font-family: Calisto MT,Bookman Old Style,Bookman,Goudy Old Style,Garamond,Hoefler Text,Bitstream Charter,Georgia,serif;
     }
 
     body {
-        background-image: url('../images/polkadotbg.jpg');
+         background-image: url(https://i.pinimg.com/736x/2e/39/ba/2e39ba458c4424c16e79ec78eecd2318.jpg); 
+        /*background-color:#F5EADC;*/
         background-repeat: repeat-x, repeat-y;
         background-attachment: fixed;
         scroll-behavior: smooth;
         
         background-size: cover;
         background-position: center;
-        background-color: rgb(94, 94, 94);
+        
     }
     
 
     body {
         font-family: Arial, sans-serif;
         line-height: 1.6;
-        color: #000000;
+        color: #3d1810;
         font-size: 20px;
         font-weight: bold;
         -webkit-text-stroke: .4px #333;
     }
 
     .container {
-        max-width: 1080px;
-        margin: 0 auto;
+        max-width: 550px;
+        border-radius: 15px;
         padding: 2rem;
+        padding-top: 5rem;
+        background: rgb(243, 237, 237);
     }
 
     section {
@@ -68,10 +77,7 @@ nav {
     #elletext {
         /*font-style: italic;*/
         font-family: georgia, sans-serif;
-        font-size: 36px;
+        font-size: 12px;
         margin: 0;
-        -webkit-text-fill-color: white;
-        -webkit-text-fill-width: 3px;
-        -webkit-text-stroke-width: 3px black;
-        -webkit-text-stroke: 1px black;
+        
     }
