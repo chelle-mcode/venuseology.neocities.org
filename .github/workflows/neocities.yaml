@@ -16,9 +16,8 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Deploy to neocities # You can customize this if you want
-      uses: bcomnes/deploy-to-neocities@master
+      uses: bcomnes/deploy-to-neocities@master  
       with:
-        # Add NEOCITIES_API_TOKEN under the repository's Settings > Secrets and variables > Actions.
         api_key: ${{ secrets.NEOCITIES_API_TOKEN }}
-        cleanup: false # true: delete neocities files that doesn't exist on the repo. false: ignore these files
+        cleanup: true # true: delete neocities files that doesn't exist on the repo. false: ignore these files
         dist_dir: public #the folder in which the site is
