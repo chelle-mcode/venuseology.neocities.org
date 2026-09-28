@@ -14,7 +14,8 @@ nav {
         text-decoration: underline pink ;
         margin: 0.5rem;
         display: inline-block;
-        position-area: inherit;
+        position: inherit;
+        
     }
 
     nav a:hover {
