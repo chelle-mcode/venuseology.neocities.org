@@ -25,6 +25,23 @@ nav {
         
         font-family: Calisto MT,Bookman Old Style,Bookman,Goudy Old Style,Garamond,Hoefler Text,Bitstream Charter,Georgia,serif;
     }
+    main {
+        display: grid; 
+        height: 60px;
+        padding: 5px;
+        margin: 5px;
+        background-color: #ddfca7;
+
+    }
+
+    aside {
+        display: grid; 
+        height: 10px;
+        padding: 5px;
+        margin: 5px;
+        background-color: #f0f0f0;
+        
+    }
 
     body {
          background-image: url(https://i.pinimg.com/736x/2e/39/ba/2e39ba458c4424c16e79ec78eecd2318.jpg); 
@@ -48,13 +65,30 @@ nav {
         -webkit-text-stroke: .4px #333;
     }
 
+    
+
     .container {
-        max-width: 550px;
-        border-radius: 15px;
-        padding: 2rem;
-        padding-top: 5rem;
+        display: grid;
+        grid-gap: 5px;
+        grid-template:
+        "header header header"
+        "sidebar main main"
+        "footer footer footer"
+        / 1fr 1fr 4fr;
+        grid-gap: 10px;
+        grid-template: 
+        "a a a" 40px
+        "b b b" 40px
+        "c c c" 40px
+        / 1fr 1fr 1fr;
         background: rgb(243, 237, 237);
     }
+    header {grid-area: header;}
+    aside {grid-area: sidebar;}
+    main {grid-area: main;}
+    footer {grid-area: footer;}
+
+    
 
     section {
         margin: 2rem 0;
