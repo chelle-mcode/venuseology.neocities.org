@@ -8,7 +8,7 @@ nav {
 
     nav a {
         display: inline-block;
-        color: black;
+        color: inherit;
         font-kerning: none;
         /*font-palette: */
         font-weight: extra-bold;
